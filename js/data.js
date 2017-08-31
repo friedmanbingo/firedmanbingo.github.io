@@ -34,5 +34,7 @@ var JSONBingo = {
         { "square": "Talks about tahoe" },
         { "square": "Picks up the wrong period cards" },
         { "square": "Picks another card" },
+        { "square": "My turn!" },
+        { "square": "Make me earn my money" },
     ]
 };
