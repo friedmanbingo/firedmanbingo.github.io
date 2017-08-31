@@ -9,7 +9,7 @@ $(document).ready(function() {
     for (i = 0; i < 24; i++) {
 
         if (i == 12) {
-            $('#board').append("<div data-value='1' class='square' id='sqfree'><div class='text'><br/>FREE</div></div>");
+            $('#board').append("<div data-value='1' class='picture' id='sqfree'><img src='image.jpeg' width='120px' height='120px'></div>");
             $('#board').append("<div data-value='0' class='square' id='sq12'><div class='text'><br/>" + JSONBingo.squares[i].square + "</div></div>");
         } else {
             $('#board').append("<div data-value='0' class='square' id='sq" + i + "'><div class='text'><br/>" + JSONBingo.squares[i].square + "</div></div>");
